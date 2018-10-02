@@ -1,5 +1,5 @@
-# Include .bashrc
 source ~/.config/bash/.bashrc
+source ~/.config/bash/functions/man.bash
 
 #===============================================================================
 # $PATH Variables for Development
