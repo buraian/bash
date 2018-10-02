@@ -34,9 +34,18 @@ export PATH=$PATH:/usr/bin/php
 # Aliases
 #-------------------------------------------------------------------------------
 
+# Applications
+alias stree="/Applications/SourceTree.app/Contents/Resources/stree"
+
 # OS X Finder: Alias' to Show/Hide hidden files
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+
+# Clear DNS Cache (OS X)
+alias clear_dns_cache="sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
+
+# Disable Sticky Keys (OS X)
+alias disable_sticky_keys_sublime="defaults write com.sublimetext.3 ApplePressAndHoldEnabled -bool false" # Sublime Text 3
 
 
 #===============================================================================
