@@ -47,6 +47,8 @@ alias clear_dns_cache="sudo dscacheutil -flushcache; sudo killall -HUP mDNSRespo
 # Disable Sticky Keys (OS X)
 alias disable_sticky_keys_sublime="defaults write com.sublimetext.3 ApplePressAndHoldEnabled -bool false" # Sublime Text 3
 
+# Get Folder/Project's Code Line Count
+alias get_code_line_count="git ls-files | grep '\.\(php\|sass\|scss\|js\|json\|coffee\|txt\|editorconfig\|gitignore\)\$' | xargs wc -l"
 
 #===============================================================================
 # Bash-it
