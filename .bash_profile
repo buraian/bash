@@ -35,7 +35,8 @@ export PATH=$PATH:/usr/bin/php
 #-------------------------------------------------------------------------------
 
 # Applications
-alias stree="/Applications/SourceTree.app/Contents/Resources/stree"
+alias stree="/Applications/SourceTree.app/Contents/Resources/stree" # SourceTree
+alias code="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code" # Visual Studio Code
 
 # OS X Finder: Alias' to Show/Hide hidden files
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
