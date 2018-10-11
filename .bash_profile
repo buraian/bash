@@ -1,4 +1,3 @@
-source ~/.config/bash/.bashrc
 source ~/.config/bash/functions/man.bash
 
 #===============================================================================
