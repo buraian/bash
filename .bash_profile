@@ -5,6 +5,10 @@ source ~/.config/bash/functions/man.bash
 # $PATH Variables for Development
 #-------------------------------------------------------------------------------
 
+# nvm
+source ~/.nvm/nvm.sh
+[[ -r $NVM_DIR/bash_completion ]] && \. $NVM_DIR/bash_completion
+
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
