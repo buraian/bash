@@ -12,6 +12,9 @@ source ~/.config/bash/.iterm2_shell_integration.bash
 source ~/.nvm/nvm.sh
 [[ -r $NVM_DIR/bash_completion ]] && \. $NVM_DIR/bash_completion
 
+# deno
+export PATH="/Users/brian/.deno/bin:$PATH"
+
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
