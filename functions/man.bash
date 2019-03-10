@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # Colorize 'man' pages
 # https://boredzo.org/blog/archives/2016-08-15/colorized-man-pages-understood-and-customized
 

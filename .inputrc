@@ -1,14 +1,7 @@
 #!/usr/bin/env bash
 
-if [ -f ./.settings.bash ]; then
-  source ./.settings.bash
-else
-  BC_BASH="$HOME/.config/bash"
-  export BC_BASH
-fi
-
 source "$BC_BASH/functions/load_startup_files.bash"
-load_startup_files '.bash_profile'
+load_startup_files '.inputrc'
 
 
 #                 Auto Placed By Scripts                  #

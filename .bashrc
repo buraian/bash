@@ -8,7 +8,7 @@ else
 fi
 
 source "$BC_BASH/functions/load_startup_files.bash"
-load_startup_files '.bash_profile'
+load_startup_files '.bashrc'
 
 
 #                 Auto Placed By Scripts                  #
