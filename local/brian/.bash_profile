@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-#--- $PATH Variables For Development ------------------------------------------
+#--- $PATH Variables For Development ---------------------#
 
 # nvm
 source ~/.nvm/nvm.sh
@@ -34,7 +34,7 @@ export PATH=$PATH:/usr/local/mongodb/bin
 export PATH=$PATH:/usr/bin/php
 
 
-#--- Aliases ------------------------------------------------------------------
+#--- Aliases ---------------------------------------------#
 
 # Applications
 alias stree="/Applications/SourceTree.app/Contents/Resources/stree" # SourceTree
@@ -64,7 +64,7 @@ export PROJECT_PATHS=~/Documents/Developer
 #--- Bash-it ---------------------------------------------#
 
 # Path to the bash it configuration
-export BASH_IT="/Users/brian/.bash_it"
+export BASH_IT="$HOME/.bash_it"
 
 # Lock and Load a custom theme file
 # location /.bash_it/themes/
