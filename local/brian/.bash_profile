@@ -56,7 +56,12 @@ alias disable_sticky_keys_vscode="defaults write com.microsoft.VSCode ApplePress
 alias get_code_line_count="git ls-files | grep '\.\(php\|sass\|scss\|js\|json\|coffee\|txt\|editorconfig\|gitignore\)\$' | xargs wc -l"
 
 
-#--- Bash-it ------------------------------------------------------------------
+#--- Project Paths ---------------------------------------#
+
+export PROJECT_PATHS=~/Documents/Developer
+
+
+#--- Bash-it ---------------------------------------------#
 
 # Path to the bash it configuration
 export BASH_IT="/Users/brian/.bash_it"
