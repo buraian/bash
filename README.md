@@ -12,7 +12,14 @@
 ### Clone Config Repo
 
 ```bash
-$ git clone https://github.com/buraian/bash.git ~/.config/bash
+$ git clone https://github.com/buraian/bash.git ~/.config/bash # default location
+```
+
+If cloning to an alternate location, then specify path in settings file:
+
+```bash
+$ cp ~/.config/bash/.settings.example.bash ~/.config/bash/.settings.bash
+$ vim ~/.config/bash/.settings.bash # edit and save location setting
 ```
 
 ### Install Bash-It
