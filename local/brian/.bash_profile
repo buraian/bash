@@ -18,12 +18,6 @@ export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
-# MAMP
-export PATH=$PATH:/Applications/MAMP/Library/bin
-
-# MAMP PHP
-export PATH=/Applications/MAMP/bin/php/php5.5.10/bin:$PATH
-
 # Drupal Drush
 export PATH=$PATH:/Users/brian/.composer/vendor/drush/drush:/usr/local/bin
 
