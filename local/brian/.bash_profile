@@ -50,6 +50,14 @@ alias disable_sticky_keys_vscode="defaults write com.microsoft.VSCode ApplePress
 alias get_code_line_count="git ls-files | grep '\.\(php\|sass\|scss\|js\|json\|coffee\|txt\|editorconfig\|gitignore\)\$' | xargs wc -l"
 
 
+#--- VS Code on Mojave Tweaks (Temporary) ----------------#
+
+# defaults write com.microsoft.VSCode CGFontRenderingFontSmoothingDisabled 0
+# defaults write com.microsoft.VSCode.helper CGFontRenderingFontSmoothingDisabled 0
+# defaults write com.microsoft.VSCode.helper.EH CGFontRenderingFontSmoothingDisabled 0
+# defaults write com.microsoft.VSCode.helper.NP CGFontRenderingFontSmoothingDisabled 0
+
+
 #--- Project Paths ---------------------------------------#
 
 export PROJECT_PATHS=~/Documents/Developer
