@@ -25,9 +25,6 @@ export PATH="$PATH:$HOME/.composer/vendor/bin"
 # Mongo DB
 export PATH=$PATH:/usr/local/mongodb/bin
 
-# PHP (added here for SublimeLinter-php)
-export PATH=$PATH:/usr/bin/php
-
 
 #--- Aliases ---------------------------------------------#
 
