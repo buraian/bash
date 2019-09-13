@@ -18,8 +18,8 @@ export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
-# Drupal Drush
-export PATH=$PATH:/Users/brian/.composer/vendor/drush/drush:/usr/local/bin
+# Composer
+export PATH="$PATH:$HOME/.composer/vendor/bin"
 
 # Mongo DB
 export PATH=$PATH:/usr/local/mongodb/bin
