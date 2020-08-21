@@ -25,6 +25,9 @@ export PATH="$PATH:$HOME/.composer/vendor/bin"
 # Mongo DB
 export PATH=$PATH:/usr/local/mongodb/bin
 
+# PHPBrew
+[[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
+
 
 #--- Aliases ---------------------------------------------#
 
