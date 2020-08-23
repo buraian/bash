@@ -25,9 +25,6 @@ export PATH="$PATH:$HOME/.composer/vendor/bin"
 # Mongo DB
 export PATH=$PATH:/usr/local/mongodb/bin
 
-# PHPBrew
-[[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
-
 
 #--- Aliases ---------------------------------------------#
 
@@ -61,6 +58,7 @@ alias get_code_line_count="git ls-files | grep '\.\(php\|sass\|scss\|js\|json\|c
 
 # Sublime Text
 # defaults write com.sublimetext.3 CGFontRenderingFontSmoothingDisabled 0
+
 
 #--- Project Paths ---------------------------------------#
 
