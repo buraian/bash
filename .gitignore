@@ -1,5 +1,4 @@
 /.settings.bash
-.iterm2_shell_integration.bash
 /local/*
 !/local/brian
 !/local/Readme.md
