@@ -12,6 +12,9 @@ export NVM_SYMLINK_CURRENT=true # This creates symlink at ~/.nvm/current/bin/nod
 # deno
 export PATH="/Users/brian/.deno/bin:$PATH"
 
+# Doom Emacs
+export PATH="$HOME/.doom-emacs/bin:$PATH"
+
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
