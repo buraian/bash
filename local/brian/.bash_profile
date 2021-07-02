@@ -73,7 +73,7 @@ alias get_code_line_count="git ls-files | grep '\.\(php\|sass\|scss\|js\|json\|c
 
 #--- Project Paths ---------------------------------------#
 
-export PROJECT_PATHS=~/Documents/Developer
+export PROJECT_PATHS="$HOME/Documents/Developer"
 
 
 #--- Bash-it ---------------------------------------------#
