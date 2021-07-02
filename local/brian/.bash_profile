@@ -33,6 +33,9 @@ export PATH="$PATH:$HOME/.composer/vendor/bin"
 # Mongo DB
 export PATH=$PATH:/usr/local/mongodb/bin
 
+# Sublime Text
+export PATH="$PATH:/Applications/Sublime Text.app/Contents/SharedSupport/bin"
+
 
 #--- Aliases ---------------------------------------------#
 
