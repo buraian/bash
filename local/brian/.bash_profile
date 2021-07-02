@@ -49,7 +49,7 @@ alias clear_dns_cache="sudo dscacheutil -flushcache; sudo killall -HUP mDNSRespo
 
 # Disable Sticky Keys (OS X)
 alias disable_sticky_keys_brave="defaults write com.brave.Browser ApplePressAndHoldEnabled -bool false" # Brave Browser
-alias disable_sticky_keys_sublime="defaults write com.sublimetext.3 ApplePressAndHoldEnabled -bool false" # Sublime Text 3
+alias disable_sticky_keys_sublime="defaults write com.sublimetext.4 ApplePressAndHoldEnabled -bool false" # Sublime Text 4
 alias disable_sticky_keys_vscode="defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false" # Visual Studio Code
 
 # Get Folder/Project's Code Line Count
