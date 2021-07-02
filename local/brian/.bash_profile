@@ -13,7 +13,7 @@ export NVM_DIR="$HOME/.nvm"
 export NVM_SYMLINK_CURRENT=true # This creates symlink at ~/.nvm/current/bin/node
 
 # deno
-export PATH="/Users/brian/.deno/bin:$PATH"
+export PATH="$HOME/.deno/bin:$PATH"
 
 # Doom Emacs
 export PATH="$HOME/.doom-emacs/bin:$PATH"
@@ -31,7 +31,7 @@ eval "$(pyenv virtualenv-init -)"
 export PATH="$PATH:$HOME/.composer/vendor/bin"
 
 # Mongo DB
-export PATH=$PATH:/usr/local/mongodb/bin
+export PATH="$PATH:/usr/local/mongodb/bin"
 
 # Sublime Text
 export PATH="$PATH:/Applications/Sublime Text.app/Contents/SharedSupport/bin"
