@@ -14,11 +14,6 @@ export PATH="$HOME/.deno/bin:$PATH"
 # Doom Emacs
 export PATH="$HOME/.doom-emacs/bin:$PATH"
 
-# pyenv
-export PATH="$HOME/.pyenv/bin:$PATH"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
-
 # Composer
 export PATH="$PATH:$HOME/.composer/vendor/bin"
 
