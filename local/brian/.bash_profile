@@ -14,10 +14,6 @@ export PATH="$HOME/.deno/bin:$PATH"
 # Doom Emacs
 export PATH="$HOME/.doom-emacs/bin:$PATH"
 
-# rbenv
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-
 # pyenv
 export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
