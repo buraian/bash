@@ -30,7 +30,8 @@ load_startup_files() {
 
   # Load Host-Specific Script
   case "$HOSTNAME" in
-    Brian*.local) import_file "$BC_BASH/local/brian/$FILENAME" ;;
+    iSpartacus.local) import_file "$BC_BASH/local/brian/$FILENAME" ;;
+    iSpartacus.attlocal.net) import_file "$BC_BASH/local/brian/$FILENAME" ;;
     *) import_file "$BC_BASH/local/$HOSTNAME/$FILENAME" ;;
   esac
 }
