@@ -19,7 +19,7 @@ function git_prompt_info() {
 }
 
 function prompt_command() {
-  PS1="${bold_red}\u${normal} ${bold_black}on${normal} ${bold_purple}\h${normal} ${bold_black}in${normal} ${bold_cyan}\w${reset_color}$(scm_prompt_info)${normal}\n${bold_white}\$${normal} "
+  PS1="\n${bold_red}\u${normal} ${bold_black}on${normal} ${bold_purple}\h${normal} ${bold_black}in${normal} ${bold_cyan}\w${reset_color}$(scm_prompt_info)${normal}\n${bold_white}\$${normal} "
 }
 
 PROMPT_COMMAND=prompt_command
