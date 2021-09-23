@@ -11,6 +11,9 @@ export N_PREFIX="$HOME/.n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_P
 # deno
 export PATH="$HOME/.deno/bin:$PATH"
 
+# rbenv
+eval "$(rbenv init -)"
+
 # Doom Emacs
 export PATH="$HOME/.doom-emacs/bin:$PATH"
 
