@@ -4,15 +4,24 @@
 
 # Homebrew
 export PATH="/usr/local/sbin:$PATH"
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # n
-export N_PREFIX="$HOME/.n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
+# export N_PREFIX="$HOME/.n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
+
+# fnm
+eval "$(fnm env --use-on-cd)"
 
 # deno
 export PATH="$HOME/.deno/bin:$PATH"
 
+# docker-sync
+if which ruby >/dev/null && which gem >/dev/null; then
+  PATH="$(ruby -r rubygems -e 'puts Gem.user_dir')/bin:$PATH"
+fi
+
 # rbenv
-eval "$(rbenv init -)"
+eval "$(rbenv init - bash)"
 
 # Doom Emacs
 export PATH="$HOME/.doom-emacs/bin:$PATH"
