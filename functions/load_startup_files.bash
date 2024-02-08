@@ -32,6 +32,9 @@ load_startup_files() {
   case "$HOSTNAME" in
     iSpartacus.local) import_file "$BC_BASH/local/brian/$FILENAME" ;;
     iSpartacus.attlocal.net) import_file "$BC_BASH/local/brian/$FILENAME" ;;
+    MacBook-Pro.local) import_file "$BC_BASH/local/brian/$FILENAME" ;;
+    MacBook-Pro.attlocal.net) import_file "$BC_BASH/local/brian/$FILENAME" ;;
+    MacBook-Pro.home) import_file "$BC_BASH/local/brian/$FILENAME" ;;
     *) import_file "$BC_BASH/local/$HOSTNAME/$FILENAME" ;;
   esac
 }
