@@ -40,6 +40,7 @@ export PATH="$PATH:/Applications/Sublime Text.app/Contents/SharedSupport/bin"
 
 # Applications
 alias stree="/Applications/SourceTree.app/Contents/Resources/stree" # SourceTree
+alias smerge="/Applications/Sublime\ Merge.app/Contents/SharedSupport/bin/smerge" # Sublime Merge
 alias code="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code" # Visual Studio Code
 
 # OS X Finder: Alias' to Show/Hide hidden files
